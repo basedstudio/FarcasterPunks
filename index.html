@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Based Ronin Cyber Mint</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { background:#0b0b0b; color:#fff; font-family:Arial, Helvetica, sans-serif; margin:0; display:flex; align-items:center; justify-content:center; min-height:100vh; }
+    .card { max-width:760px; width:90%; text-align:center; padding:32px; border-radius:12px; box-shadow: 0 6px 30px rgba(0,0,0,0.6); background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); }
+    h1 { margin:8px 0 4px; font-size:28px; letter-spacing:1px; }
+    p { margin:8px 0 18px; color:#cfcfcf; }
+    .btn { display:inline-block; padding:12px 22px; border-radius:8px; background:#111827; color:#fff; border:1px solid rgba(255,255,255,0.06); cursor:pointer; text-decoration:none; margin:6px; }
+    footer { margin-top:18px; color:#8b8b8b; font-size:13px; }
+    .meta { display:flex; gap:12px; align-items:center; justify-content:center; margin-top:18px; }
+    .meta img { width:96px; height:96px; border-radius:8px; object-fit:cover; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="/assets/og.png" alt="OG Image" style="width:240px;border-radius:8px;object-fit:cover;" />
+    <h1>🔥 Based Ronin Cyber</h1>
+    <p>Mint your NFT on Base network — simple demo site ready to deploy on Vercel.</p>
+    <div>
+      <a class="btn" href="#" onclick="alert('Connect Wallet feature: paste your frontend code or use the example provided by your assistant')">Connect Wallet</a>
+      <a class="btn" href="#" onclick="alert('Mint function: integrate with your smart contract ABI and address')">Mint NFT</a>
+    </div>
+    <div class="meta">
+      <img src="/assets/icon.png" alt="icon" />
+      <div style="text-align:left;">
+        <div style="font-weight:600">Based Ronin Cyber</div>
+        <div style="color:#9b9b9b;font-size:13px;">Demo mint site — edit index.html to integrate contract & ABI.</div>
+      </div>
+    </div>
+    <footer>Deploy this folder to Vercel (no custom domain needed). See README for steps.</footer>
+  </div>
+</body>
+</html>
